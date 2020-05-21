@@ -12,7 +12,7 @@ public class Circulo {
     }
     
     public double Area(){
-        return (Math.PI*(Math.pow(radio, 2)));
+        return Math.PI*Math.pow(radio, 2);
     }
     
     public double getRadio() {
